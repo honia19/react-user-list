@@ -1,0 +1,98 @@
+exports["UserList create snapshot/UserList snapshot should render correctly(0)"] = {
+  "node": {
+    "nodeType": "function",
+    "type": {
+      "render": "[function]",
+      "attrs": [],
+      "componentStyle": {
+        "rules": [
+          "width:500px;height:100%;margin-top:20px;"
+        ],
+        "isStatic": true,
+        "componentId": "styledComponents__Wrapper-sc-1uhpq5j-0"
+      },
+      "displayName": "styledComponents__Wrapper",
+      "foldedComponentIds": [],
+      "styledComponentId": "styledComponents__Wrapper-sc-1uhpq5j-0",
+      "target": "div",
+      "withComponent": "withComponent",
+      "warnTooManyClasses": "[function]",
+      "toString": "[function]"
+    },
+    "props": {
+      "children": [
+        {
+          "type": "UserForm",
+          "props": {
+            "callback": "createUserRequests"
+          },
+          "_store": {}
+        },
+        {
+          "type": {
+            "type": "UserListItem"
+          },
+          "props": {
+            "users": [],
+            "callback": "deleteUserRequests"
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "class",
+        "type": "UserForm",
+        "props": {
+          "callback": "createUserRequests"
+        }
+      },
+      {
+        "nodeType": "function",
+        "type": {
+          "type": "UserListItem"
+        },
+        "props": {
+          "users": [],
+          "callback": "deleteUserRequests"
+        }
+      }
+    ]
+  },
+  "type": "styledComponents__Wrapper",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "class",
+        "type": "UserForm",
+        "props": {
+          "callback": "createUserRequests"
+        }
+      },
+      "type": "UserForm",
+      "props": {
+        "callback": "createUserRequests"
+      }
+    },
+    {
+      "node": {
+        "nodeType": "function",
+        "type": {
+          "type": "UserListItem"
+        },
+        "props": {
+          "users": [],
+          "callback": "deleteUserRequests"
+        }
+      },
+      "type": "UserListItem",
+      "props": {
+        "users": [],
+        "callback": "deleteUserRequests"
+      }
+    }
+  ]
+};
+

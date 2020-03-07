@@ -1,0 +1,4 @@
+--colors
+--recursive
+web/**/*.test.js
+-r ./web/testConfig/mocha-setup.js

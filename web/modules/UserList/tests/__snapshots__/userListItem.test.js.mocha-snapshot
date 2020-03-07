@@ -1,0 +1,3787 @@
+exports["UserListItem create snapshot/UserList snapshot should render correctly(0)"] = {
+  "node": {
+    "nodeType": "function",
+    "type": {
+      "render": "[function]",
+      "attrs": [],
+      "componentStyle": {
+        "rules": [
+          "width:100%;height:70%;"
+        ],
+        "isStatic": true,
+        "componentId": "styledComponents__Wrapper-eajyzw-5"
+      },
+      "displayName": "styledComponents__Wrapper",
+      "foldedComponentIds": [],
+      "styledComponentId": "styledComponents__Wrapper-eajyzw-5",
+      "target": "div",
+      "withComponent": "withComponent",
+      "warnTooManyClasses": "[function]",
+      "toString": "[function]",
+      "UserInfo": {
+        "render": "[function]",
+        "attrs": [],
+        "componentStyle": {
+          "rules": [
+            "width:100%;display:flex;align-items:center;"
+          ],
+          "isStatic": true,
+          "componentId": "styledComponents__UserInfo-eajyzw-4"
+        },
+        "displayName": "styledComponents__UserInfo",
+        "foldedComponentIds": [],
+        "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+        "target": "div",
+        "withComponent": "withComponent",
+        "warnTooManyClasses": "[function]",
+        "toString": "[function]",
+        "DetailInfo": {
+          "render": "[function]",
+          "attrs": [],
+          "componentStyle": {
+            "rules": [
+              "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+            ],
+            "isStatic": true,
+            "componentId": "styledComponents__DetailInfo-eajyzw-1"
+          },
+          "displayName": "styledComponents__DetailInfo",
+          "foldedComponentIds": [],
+          "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+          "target": "div",
+          "withComponent": "withComponent",
+          "warnTooManyClasses": "[function]",
+          "toString": "[function]",
+          "firstName": {
+            "render": "[function]",
+            "attrs": [],
+            "componentStyle": {
+              "rules": [
+                "width:35%;"
+              ],
+              "isStatic": true,
+              "componentId": "styledComponents__firstName-eajyzw-2"
+            },
+            "displayName": "styledComponents__firstName",
+            "foldedComponentIds": [],
+            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+            "target": "span",
+            "withComponent": "withComponent",
+            "warnTooManyClasses": "[function]",
+            "toString": "[function]"
+          },
+          "lastName": {
+            "render": "[function]",
+            "attrs": [],
+            "componentStyle": {
+              "rules": [
+                "width:35%;"
+              ],
+              "isStatic": true,
+              "componentId": "styledComponents__lastName-eajyzw-3"
+            },
+            "displayName": "styledComponents__lastName",
+            "foldedComponentIds": [],
+            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+            "target": "span",
+            "withComponent": "withComponent",
+            "warnTooManyClasses": "[function]",
+            "toString": "[function]"
+          }
+        },
+        "DeleteButton": {
+          "render": "[function]",
+          "attrs": [],
+          "componentStyle": {
+            "rules": [
+              "width:30%;display:flex;justify-content:center;align-items:center;"
+            ],
+            "isStatic": true,
+            "componentId": "styledComponents__DeleteButton-eajyzw-0"
+          },
+          "displayName": "styledComponents__DeleteButton",
+          "foldedComponentIds": [],
+          "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+          "target": "div",
+          "withComponent": "withComponent",
+          "warnTooManyClasses": "[function]",
+          "toString": "[function]"
+        }
+      }
+    },
+    "props": {
+      "children": {
+        "type": "ListGroup",
+        "props": {
+          "children": [
+            {
+              "type": "ListGroupItem",
+              "key": "1",
+              "props": {
+                "children": {
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:100%;display:flex;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__UserInfo-eajyzw-4"
+                    },
+                    "displayName": "styledComponents__UserInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "DetailInfo": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "DeleteButton": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "props": {
+                    "children": [
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                          },
+                          "displayName": "styledComponents__DetailInfo",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                          "target": "div",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]",
+                          "firstName": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "lastName": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          }
+                        },
+                        "props": {
+                          "children": [
+                            {
+                              "type": {
+                                "render": "[function]",
+                                "attrs": [],
+                                "componentStyle": {
+                                  "rules": [
+                                    "width:35%;"
+                                  ],
+                                  "isStatic": true,
+                                  "componentId": "styledComponents__firstName-eajyzw-2"
+                                },
+                                "displayName": "styledComponents__firstName",
+                                "foldedComponentIds": [],
+                                "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                                "target": "span",
+                                "withComponent": "withComponent",
+                                "warnTooManyClasses": "[function]",
+                                "toString": "[function]"
+                              },
+                              "props": {
+                                "children": "Vasia"
+                              },
+                              "_store": {}
+                            },
+                            {
+                              "type": {
+                                "render": "[function]",
+                                "attrs": [],
+                                "componentStyle": {
+                                  "rules": [
+                                    "width:35%;"
+                                  ],
+                                  "isStatic": true,
+                                  "componentId": "styledComponents__lastName-eajyzw-3"
+                                },
+                                "displayName": "styledComponents__lastName",
+                                "foldedComponentIds": [],
+                                "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                                "target": "span",
+                                "withComponent": "withComponent",
+                                "warnTooManyClasses": "[function]",
+                                "toString": "[function]"
+                              },
+                              "props": {
+                                "children": "Vasia"
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:30%;display:flex;justify-content:center;align-items:center;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                          },
+                          "displayName": "styledComponents__DeleteButton",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                          "target": "div",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": {
+                            "type": "Button",
+                            "props": {
+                              "id": "deleteUser",
+                              "outline": true,
+                              "color": "danger",
+                              "onClick": "onClick",
+                              "children": "Delete",
+                              "tag": "button"
+                            },
+                            "_store": {}
+                          }
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  },
+                  "_store": {}
+                },
+                "tag": "li"
+              },
+              "_store": {}
+            }
+          ],
+          "tag": "ul"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "function",
+      "type": "ListGroup",
+      "props": {
+        "children": [
+          {
+            "type": "ListGroupItem",
+            "key": "1",
+            "props": {
+              "children": {
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:100%;display:flex;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__UserInfo-eajyzw-4"
+                  },
+                  "displayName": "styledComponents__UserInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "DetailInfo": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "DeleteButton": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "props": {
+                  "children": [
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                        },
+                        "displayName": "styledComponents__DetailInfo",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]",
+                        "firstName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "lastName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        }
+                      },
+                      "props": {
+                        "children": [
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__firstName-eajyzw-2"
+                              },
+                              "displayName": "styledComponents__firstName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          },
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__lastName-eajyzw-3"
+                              },
+                              "displayName": "styledComponents__lastName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:30%;display:flex;justify-content:center;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                        },
+                        "displayName": "styledComponents__DeleteButton",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": {
+                          "type": "Button",
+                          "props": {
+                            "id": "deleteUser",
+                            "outline": true,
+                            "color": "danger",
+                            "onClick": "onClick",
+                            "children": "Delete",
+                            "tag": "button"
+                          },
+                          "_store": {}
+                        }
+                      },
+                      "_store": {}
+                    }
+                  ]
+                },
+                "_store": {}
+              },
+              "tag": "li"
+            },
+            "_store": {}
+          }
+        ],
+        "tag": "ul"
+      },
+      "rendered": [
+        {
+          "nodeType": "function",
+          "type": "ListGroupItem",
+          "props": {
+            "children": {
+              "type": {
+                "render": "[function]",
+                "attrs": [],
+                "componentStyle": {
+                  "rules": [
+                    "width:100%;display:flex;align-items:center;"
+                  ],
+                  "isStatic": true,
+                  "componentId": "styledComponents__UserInfo-eajyzw-4"
+                },
+                "displayName": "styledComponents__UserInfo",
+                "foldedComponentIds": [],
+                "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                "target": "div",
+                "withComponent": "withComponent",
+                "warnTooManyClasses": "[function]",
+                "toString": "[function]",
+                "DetailInfo": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                  },
+                  "displayName": "styledComponents__DetailInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "firstName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__firstName-eajyzw-2"
+                    },
+                    "displayName": "styledComponents__firstName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "lastName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__lastName-eajyzw-3"
+                    },
+                    "displayName": "styledComponents__lastName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "DeleteButton": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:30%;display:flex;justify-content:center;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                  },
+                  "displayName": "styledComponents__DeleteButton",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                }
+              },
+              "props": {
+                "children": [
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "props": {
+                      "children": [
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": {
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "_store": {}
+                  }
+                ]
+              },
+              "_store": {}
+            },
+            "tag": "li"
+          },
+          "key": "1",
+          "rendered": {
+            "nodeType": "function",
+            "type": {
+              "render": "[function]",
+              "attrs": [],
+              "componentStyle": {
+                "rules": [
+                  "width:100%;display:flex;align-items:center;"
+                ],
+                "isStatic": true,
+                "componentId": "styledComponents__UserInfo-eajyzw-4"
+              },
+              "displayName": "styledComponents__UserInfo",
+              "foldedComponentIds": [],
+              "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+              "target": "div",
+              "withComponent": "withComponent",
+              "warnTooManyClasses": "[function]",
+              "toString": "[function]",
+              "DetailInfo": {
+                "render": "[function]",
+                "attrs": [],
+                "componentStyle": {
+                  "rules": [
+                    "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                  ],
+                  "isStatic": true,
+                  "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                },
+                "displayName": "styledComponents__DetailInfo",
+                "foldedComponentIds": [],
+                "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                "target": "div",
+                "withComponent": "withComponent",
+                "warnTooManyClasses": "[function]",
+                "toString": "[function]",
+                "firstName": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:35%;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__firstName-eajyzw-2"
+                  },
+                  "displayName": "styledComponents__firstName",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                  "target": "span",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                },
+                "lastName": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:35%;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__lastName-eajyzw-3"
+                  },
+                  "displayName": "styledComponents__lastName",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                  "target": "span",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                }
+              },
+              "DeleteButton": {
+                "render": "[function]",
+                "attrs": [],
+                "componentStyle": {
+                  "rules": [
+                    "width:30%;display:flex;justify-content:center;align-items:center;"
+                  ],
+                  "isStatic": true,
+                  "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                },
+                "displayName": "styledComponents__DeleteButton",
+                "foldedComponentIds": [],
+                "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                "target": "div",
+                "withComponent": "withComponent",
+                "warnTooManyClasses": "[function]",
+                "toString": "[function]"
+              }
+            },
+            "props": {
+              "children": [
+                {
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "props": {
+                    "children": [
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "props": {
+                    "children": {
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "children": "Delete",
+                        "tag": "button"
+                      },
+                      "_store": {}
+                    }
+                  },
+                  "_store": {}
+                }
+              ]
+            },
+            "rendered": [
+              {
+                "nodeType": "function",
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                  },
+                  "displayName": "styledComponents__DetailInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "firstName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__firstName-eajyzw-2"
+                    },
+                    "displayName": "styledComponents__firstName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "lastName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__lastName-eajyzw-3"
+                    },
+                    "displayName": "styledComponents__lastName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "props": {
+                  "children": [
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "_store": {}
+                    }
+                  ]
+                },
+                "rendered": [
+                  {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": "Vasia"
+                    },
+                    "rendered": "Vasia"
+                  },
+                  {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": "Vasia"
+                    },
+                    "rendered": "Vasia"
+                  }
+                ]
+              },
+              {
+                "nodeType": "function",
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:30%;display:flex;justify-content:center;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                  },
+                  "displayName": "styledComponents__DeleteButton",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                },
+                "props": {
+                  "children": {
+                    "type": "Button",
+                    "props": {
+                      "id": "deleteUser",
+                      "outline": true,
+                      "color": "danger",
+                      "onClick": "onClick",
+                      "children": "Delete",
+                      "tag": "button"
+                    },
+                    "_store": {}
+                  }
+                },
+                "rendered": {
+                  "nodeType": "class",
+                  "type": "Button",
+                  "props": {
+                    "id": "deleteUser",
+                    "outline": true,
+                    "color": "danger",
+                    "onClick": "onClick",
+                    "children": "Delete",
+                    "tag": "button"
+                  },
+                  "rendered": "Delete"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": "styledComponents__Wrapper",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "function",
+        "type": "ListGroup",
+        "props": {
+          "children": [
+            {
+              "type": "ListGroupItem",
+              "key": "1",
+              "props": {
+                "children": {
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:100%;display:flex;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__UserInfo-eajyzw-4"
+                    },
+                    "displayName": "styledComponents__UserInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "DetailInfo": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "DeleteButton": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "props": {
+                    "children": [
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                          },
+                          "displayName": "styledComponents__DetailInfo",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                          "target": "div",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]",
+                          "firstName": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "lastName": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          }
+                        },
+                        "props": {
+                          "children": [
+                            {
+                              "type": {
+                                "render": "[function]",
+                                "attrs": [],
+                                "componentStyle": {
+                                  "rules": [
+                                    "width:35%;"
+                                  ],
+                                  "isStatic": true,
+                                  "componentId": "styledComponents__firstName-eajyzw-2"
+                                },
+                                "displayName": "styledComponents__firstName",
+                                "foldedComponentIds": [],
+                                "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                                "target": "span",
+                                "withComponent": "withComponent",
+                                "warnTooManyClasses": "[function]",
+                                "toString": "[function]"
+                              },
+                              "props": {
+                                "children": "Vasia"
+                              },
+                              "_store": {}
+                            },
+                            {
+                              "type": {
+                                "render": "[function]",
+                                "attrs": [],
+                                "componentStyle": {
+                                  "rules": [
+                                    "width:35%;"
+                                  ],
+                                  "isStatic": true,
+                                  "componentId": "styledComponents__lastName-eajyzw-3"
+                                },
+                                "displayName": "styledComponents__lastName",
+                                "foldedComponentIds": [],
+                                "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                                "target": "span",
+                                "withComponent": "withComponent",
+                                "warnTooManyClasses": "[function]",
+                                "toString": "[function]"
+                              },
+                              "props": {
+                                "children": "Vasia"
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:30%;display:flex;justify-content:center;align-items:center;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                          },
+                          "displayName": "styledComponents__DeleteButton",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                          "target": "div",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": {
+                            "type": "Button",
+                            "props": {
+                              "id": "deleteUser",
+                              "outline": true,
+                              "color": "danger",
+                              "onClick": "onClick",
+                              "children": "Delete",
+                              "tag": "button"
+                            },
+                            "_store": {}
+                          }
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  },
+                  "_store": {}
+                },
+                "tag": "li"
+              },
+              "_store": {}
+            }
+          ],
+          "tag": "ul"
+        },
+        "rendered": [
+          {
+            "nodeType": "function",
+            "type": "ListGroupItem",
+            "props": {
+              "children": {
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:100%;display:flex;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__UserInfo-eajyzw-4"
+                  },
+                  "displayName": "styledComponents__UserInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "DetailInfo": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "DeleteButton": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "props": {
+                  "children": [
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                        },
+                        "displayName": "styledComponents__DetailInfo",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]",
+                        "firstName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "lastName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        }
+                      },
+                      "props": {
+                        "children": [
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__firstName-eajyzw-2"
+                              },
+                              "displayName": "styledComponents__firstName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          },
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__lastName-eajyzw-3"
+                              },
+                              "displayName": "styledComponents__lastName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:30%;display:flex;justify-content:center;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                        },
+                        "displayName": "styledComponents__DeleteButton",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": {
+                          "type": "Button",
+                          "props": {
+                            "id": "deleteUser",
+                            "outline": true,
+                            "color": "danger",
+                            "onClick": "onClick",
+                            "children": "Delete",
+                            "tag": "button"
+                          },
+                          "_store": {}
+                        }
+                      },
+                      "_store": {}
+                    }
+                  ]
+                },
+                "_store": {}
+              },
+              "tag": "li"
+            },
+            "key": "1",
+            "rendered": {
+              "nodeType": "function",
+              "type": {
+                "render": "[function]",
+                "attrs": [],
+                "componentStyle": {
+                  "rules": [
+                    "width:100%;display:flex;align-items:center;"
+                  ],
+                  "isStatic": true,
+                  "componentId": "styledComponents__UserInfo-eajyzw-4"
+                },
+                "displayName": "styledComponents__UserInfo",
+                "foldedComponentIds": [],
+                "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                "target": "div",
+                "withComponent": "withComponent",
+                "warnTooManyClasses": "[function]",
+                "toString": "[function]",
+                "DetailInfo": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                  },
+                  "displayName": "styledComponents__DetailInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "firstName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__firstName-eajyzw-2"
+                    },
+                    "displayName": "styledComponents__firstName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "lastName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__lastName-eajyzw-3"
+                    },
+                    "displayName": "styledComponents__lastName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "DeleteButton": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:30%;display:flex;justify-content:center;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                  },
+                  "displayName": "styledComponents__DeleteButton",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                }
+              },
+              "props": {
+                "children": [
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "props": {
+                      "children": [
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": {
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "_store": {}
+                  }
+                ]
+              },
+              "rendered": [
+                {
+                  "nodeType": "function",
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "props": {
+                    "children": [
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "function",
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "rendered": "Vasia"
+                    },
+                    {
+                      "nodeType": "function",
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "rendered": "Vasia"
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "function",
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "props": {
+                    "children": {
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "children": "Delete",
+                        "tag": "button"
+                      },
+                      "_store": {}
+                    }
+                  },
+                  "rendered": {
+                    "nodeType": "class",
+                    "type": "Button",
+                    "props": {
+                      "id": "deleteUser",
+                      "outline": true,
+                      "color": "danger",
+                      "onClick": "onClick",
+                      "children": "Delete",
+                      "tag": "button"
+                    },
+                    "rendered": "Delete"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "type": "ListGroup",
+      "props": {
+        "tag": "ul"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "ListGroupItem",
+            "props": {
+              "children": {
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:100%;display:flex;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__UserInfo-eajyzw-4"
+                  },
+                  "displayName": "styledComponents__UserInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "DetailInfo": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "DeleteButton": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "props": {
+                  "children": [
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                        },
+                        "displayName": "styledComponents__DetailInfo",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]",
+                        "firstName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "lastName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        }
+                      },
+                      "props": {
+                        "children": [
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__firstName-eajyzw-2"
+                              },
+                              "displayName": "styledComponents__firstName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          },
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__lastName-eajyzw-3"
+                              },
+                              "displayName": "styledComponents__lastName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:30%;display:flex;justify-content:center;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                        },
+                        "displayName": "styledComponents__DeleteButton",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": {
+                          "type": "Button",
+                          "props": {
+                            "id": "deleteUser",
+                            "outline": true,
+                            "color": "danger",
+                            "onClick": "onClick",
+                            "children": "Delete",
+                            "tag": "button"
+                          },
+                          "_store": {}
+                        }
+                      },
+                      "_store": {}
+                    }
+                  ]
+                },
+                "_store": {}
+              },
+              "tag": "li"
+            },
+            "key": "1",
+            "rendered": {
+              "nodeType": "function",
+              "type": {
+                "render": "[function]",
+                "attrs": [],
+                "componentStyle": {
+                  "rules": [
+                    "width:100%;display:flex;align-items:center;"
+                  ],
+                  "isStatic": true,
+                  "componentId": "styledComponents__UserInfo-eajyzw-4"
+                },
+                "displayName": "styledComponents__UserInfo",
+                "foldedComponentIds": [],
+                "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                "target": "div",
+                "withComponent": "withComponent",
+                "warnTooManyClasses": "[function]",
+                "toString": "[function]",
+                "DetailInfo": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                  },
+                  "displayName": "styledComponents__DetailInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "firstName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__firstName-eajyzw-2"
+                    },
+                    "displayName": "styledComponents__firstName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "lastName": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:35%;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__lastName-eajyzw-3"
+                    },
+                    "displayName": "styledComponents__lastName",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                    "target": "span",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "DeleteButton": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:30%;display:flex;justify-content:center;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                  },
+                  "displayName": "styledComponents__DeleteButton",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]"
+                }
+              },
+              "props": {
+                "children": [
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "props": {
+                      "children": [
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": {
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "_store": {}
+                  }
+                ]
+              },
+              "rendered": [
+                {
+                  "nodeType": "function",
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "props": {
+                    "children": [
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "function",
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "rendered": "Vasia"
+                    },
+                    {
+                      "nodeType": "function",
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": "Vasia"
+                      },
+                      "rendered": "Vasia"
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "function",
+                  "type": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  },
+                  "props": {
+                    "children": {
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "children": "Delete",
+                        "tag": "button"
+                      },
+                      "_store": {}
+                    }
+                  },
+                  "rendered": {
+                    "nodeType": "class",
+                    "type": "Button",
+                    "props": {
+                      "id": "deleteUser",
+                      "outline": true,
+                      "color": "danger",
+                      "onClick": "onClick",
+                      "children": "Delete",
+                      "tag": "button"
+                    },
+                    "rendered": "Delete"
+                  }
+                }
+              ]
+            }
+          },
+          "type": "ListGroupItem",
+          "props": {
+            "tag": "li",
+            "key": "1"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "function",
+                "type": {
+                  "render": "[function]",
+                  "attrs": [],
+                  "componentStyle": {
+                    "rules": [
+                      "width:100%;display:flex;align-items:center;"
+                    ],
+                    "isStatic": true,
+                    "componentId": "styledComponents__UserInfo-eajyzw-4"
+                  },
+                  "displayName": "styledComponents__UserInfo",
+                  "foldedComponentIds": [],
+                  "styledComponentId": "styledComponents__UserInfo-eajyzw-4",
+                  "target": "div",
+                  "withComponent": "withComponent",
+                  "warnTooManyClasses": "[function]",
+                  "toString": "[function]",
+                  "DetailInfo": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                    },
+                    "displayName": "styledComponents__DetailInfo",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]",
+                    "firstName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__firstName-eajyzw-2"
+                      },
+                      "displayName": "styledComponents__firstName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "lastName": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:35%;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__lastName-eajyzw-3"
+                      },
+                      "displayName": "styledComponents__lastName",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                      "target": "span",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    }
+                  },
+                  "DeleteButton": {
+                    "render": "[function]",
+                    "attrs": [],
+                    "componentStyle": {
+                      "rules": [
+                        "width:30%;display:flex;justify-content:center;align-items:center;"
+                      ],
+                      "isStatic": true,
+                      "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                    },
+                    "displayName": "styledComponents__DeleteButton",
+                    "foldedComponentIds": [],
+                    "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                    "target": "div",
+                    "withComponent": "withComponent",
+                    "warnTooManyClasses": "[function]",
+                    "toString": "[function]"
+                  }
+                },
+                "props": {
+                  "children": [
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                        },
+                        "displayName": "styledComponents__DetailInfo",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]",
+                        "firstName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "lastName": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        }
+                      },
+                      "props": {
+                        "children": [
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__firstName-eajyzw-2"
+                              },
+                              "displayName": "styledComponents__firstName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          },
+                          {
+                            "type": {
+                              "render": "[function]",
+                              "attrs": [],
+                              "componentStyle": {
+                                "rules": [
+                                  "width:35%;"
+                                ],
+                                "isStatic": true,
+                                "componentId": "styledComponents__lastName-eajyzw-3"
+                              },
+                              "displayName": "styledComponents__lastName",
+                              "foldedComponentIds": [],
+                              "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                              "target": "span",
+                              "withComponent": "withComponent",
+                              "warnTooManyClasses": "[function]",
+                              "toString": "[function]"
+                            },
+                            "props": {
+                              "children": "Vasia"
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:30%;display:flex;justify-content:center;align-items:center;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                        },
+                        "displayName": "styledComponents__DeleteButton",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                        "target": "div",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "props": {
+                        "children": {
+                          "type": "Button",
+                          "props": {
+                            "id": "deleteUser",
+                            "outline": true,
+                            "color": "danger",
+                            "onClick": "onClick",
+                            "children": "Delete",
+                            "tag": "button"
+                          },
+                          "_store": {}
+                        }
+                      },
+                      "_store": {}
+                    }
+                  ]
+                },
+                "rendered": [
+                  {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "props": {
+                      "children": [
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      },
+                      {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": {
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "rendered": {
+                      "nodeType": "class",
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "children": "Delete",
+                        "tag": "button"
+                      },
+                      "rendered": "Delete"
+                    }
+                  }
+                ]
+              },
+              "type": "styledComponents__UserInfo",
+              "props": {},
+              "children": [
+                {
+                  "node": {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:70%;display:flex;justify-content:flex-start;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DetailInfo-eajyzw-1"
+                      },
+                      "displayName": "styledComponents__DetailInfo",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DetailInfo-eajyzw-1",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]",
+                      "firstName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__firstName-eajyzw-2"
+                        },
+                        "displayName": "styledComponents__firstName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      },
+                      "lastName": {
+                        "render": "[function]",
+                        "attrs": [],
+                        "componentStyle": {
+                          "rules": [
+                            "width:35%;"
+                          ],
+                          "isStatic": true,
+                          "componentId": "styledComponents__lastName-eajyzw-3"
+                        },
+                        "displayName": "styledComponents__lastName",
+                        "foldedComponentIds": [],
+                        "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                        "target": "span",
+                        "withComponent": "withComponent",
+                        "warnTooManyClasses": "[function]",
+                        "toString": "[function]"
+                      }
+                    },
+                    "props": {
+                      "children": [
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__firstName-eajyzw-2"
+                            },
+                            "displayName": "styledComponents__firstName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": {
+                            "render": "[function]",
+                            "attrs": [],
+                            "componentStyle": {
+                              "rules": [
+                                "width:35%;"
+                              ],
+                              "isStatic": true,
+                              "componentId": "styledComponents__lastName-eajyzw-3"
+                            },
+                            "displayName": "styledComponents__lastName",
+                            "foldedComponentIds": [],
+                            "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                            "target": "span",
+                            "withComponent": "withComponent",
+                            "warnTooManyClasses": "[function]",
+                            "toString": "[function]"
+                          },
+                          "props": {
+                            "children": "Vasia"
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      },
+                      {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      }
+                    ]
+                  },
+                  "type": "styledComponents__DetailInfo",
+                  "props": {},
+                  "children": [
+                    {
+                      "node": {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__firstName-eajyzw-2"
+                          },
+                          "displayName": "styledComponents__firstName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__firstName-eajyzw-2",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      },
+                      "type": "styledComponents__firstName",
+                      "props": {},
+                      "children": [
+                        "Vasia"
+                      ]
+                    },
+                    {
+                      "node": {
+                        "nodeType": "function",
+                        "type": {
+                          "render": "[function]",
+                          "attrs": [],
+                          "componentStyle": {
+                            "rules": [
+                              "width:35%;"
+                            ],
+                            "isStatic": true,
+                            "componentId": "styledComponents__lastName-eajyzw-3"
+                          },
+                          "displayName": "styledComponents__lastName",
+                          "foldedComponentIds": [],
+                          "styledComponentId": "styledComponents__lastName-eajyzw-3",
+                          "target": "span",
+                          "withComponent": "withComponent",
+                          "warnTooManyClasses": "[function]",
+                          "toString": "[function]"
+                        },
+                        "props": {
+                          "children": "Vasia"
+                        },
+                        "rendered": "Vasia"
+                      },
+                      "type": "styledComponents__lastName",
+                      "props": {},
+                      "children": [
+                        "Vasia"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "node": {
+                    "nodeType": "function",
+                    "type": {
+                      "render": "[function]",
+                      "attrs": [],
+                      "componentStyle": {
+                        "rules": [
+                          "width:30%;display:flex;justify-content:center;align-items:center;"
+                        ],
+                        "isStatic": true,
+                        "componentId": "styledComponents__DeleteButton-eajyzw-0"
+                      },
+                      "displayName": "styledComponents__DeleteButton",
+                      "foldedComponentIds": [],
+                      "styledComponentId": "styledComponents__DeleteButton-eajyzw-0",
+                      "target": "div",
+                      "withComponent": "withComponent",
+                      "warnTooManyClasses": "[function]",
+                      "toString": "[function]"
+                    },
+                    "props": {
+                      "children": {
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "rendered": {
+                      "nodeType": "class",
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "children": "Delete",
+                        "tag": "button"
+                      },
+                      "rendered": "Delete"
+                    }
+                  },
+                  "type": "styledComponents__DeleteButton",
+                  "props": {},
+                  "children": [
+                    {
+                      "node": {
+                        "nodeType": "class",
+                        "type": "Button",
+                        "props": {
+                          "id": "deleteUser",
+                          "outline": true,
+                          "color": "danger",
+                          "onClick": "onClick",
+                          "children": "Delete",
+                          "tag": "button"
+                        },
+                        "rendered": "Delete"
+                      },
+                      "type": "Button",
+                      "props": {
+                        "id": "deleteUser",
+                        "outline": true,
+                        "color": "danger",
+                        "onClick": "onClick",
+                        "tag": "button"
+                      },
+                      "children": [
+                        "Delete"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+

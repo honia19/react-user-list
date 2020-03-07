@@ -1,0 +1,61 @@
+exports["MainComponent create snapshot/MainComponent snapshot should render correctly(0)"] = {
+  "node": {
+    "nodeType": "function",
+    "type": {
+      "render": "[function]",
+      "attrs": [],
+      "componentStyle": {
+        "rules": [
+          "width:100%;height:100%;display:flex;justify-content:center;"
+        ],
+        "isStatic": true,
+        "componentId": "styledComponents__Wrapper-sc-1rbu5wj-0"
+      },
+      "displayName": "styledComponents__Wrapper",
+      "foldedComponentIds": [],
+      "styledComponentId": "styledComponents__Wrapper-sc-1rbu5wj-0",
+      "target": "div",
+      "withComponent": "withComponent",
+      "warnTooManyClasses": "[function]",
+      "toString": "[function]"
+    },
+    "props": {
+      "children": {
+        "type": {
+          "type": "ConnectFunction",
+          "WrappedComponent": "UserList",
+          "displayName": "Connect(UserList)"
+        },
+        "props": {},
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "function",
+      "type": {
+        "type": "ConnectFunction",
+        "WrappedComponent": "UserList",
+        "displayName": "Connect(UserList)"
+      },
+      "props": {}
+    }
+  },
+  "type": "styledComponents__Wrapper",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "function",
+        "type": {
+          "type": "ConnectFunction",
+          "WrappedComponent": "UserList",
+          "displayName": "Connect(UserList)"
+        },
+        "props": {}
+      },
+      "type": "ConnectFunction",
+      "props": {}
+    }
+  ]
+};
+

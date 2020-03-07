@@ -1,0 +1,94 @@
+{
+  "name": "react-saga-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "tests": "mocha --opts ./mocha.opts web/**/*.test.js --recursive -R nyan --silent",
+    "tests-cov": "nyc -e .jsx mocha --opts ./mocha.opts web/**/*.test.js --recursive -R nyan --silent",
+    "update-snapshots": "mocha --opts ./mocha.opts web/**/*.test.js --require mocha-snapshots --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://honia1996@bitbucket.org/honia1996/react-saga-app.git"
+  },
+  "author": "Vladyslav Honchenko",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/honia1996/react-saga-app#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mocha-snapshots": "^4.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "react-test-renderer": "latest",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "sinon": "^7.3.2",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-istanbul": "^5.1.4",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "style-loader": "^0.23.1",
+    "styled-components-test-utils": "^1.0.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "nyc": {
+    "check-coverage": false,
+    "per-file": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "require": [
+      "@babel/register"
+    ],
+    "exclude": [
+      "**/mockData/**",
+      "coverage/**",
+      "test/**",
+      "test{,-*}.js",
+      "**/*.test.js",
+      "**/__tests__/**",
+      "**/node_modules/**",
+      "**/__snapshots__/**",
+      ".nyc_output/**",
+      ".nyc_output-tmp/**"
+    ],
+    "cache": true,
+    "all": false,
+    "temp-directory": "./.nyc_output-tmp",
+    "report-dir": "./.nyc_output"
+  }
+}

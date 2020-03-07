@@ -1,0 +1,79 @@
+exports["UserForm create snapshot/UserList snapshot should render correctly(0)"] = {
+  "node": {
+    "nodeType": "function",
+    "type": {
+      "render": "[function]",
+      "attrs": [],
+      "componentStyle": {
+        "rules": [
+          "height:30%;width:100%;margin-bottom:25px;"
+        ],
+        "isStatic": true,
+        "componentId": "styledComponents__Wrapper-sc-13hh2qq-0"
+      },
+      "displayName": "styledComponents__Wrapper",
+      "foldedComponentIds": [],
+      "styledComponentId": "styledComponents__Wrapper-sc-13hh2qq-0",
+      "target": "div",
+      "withComponent": "withComponent",
+      "warnTooManyClasses": "[function]",
+      "toString": "[function]"
+    },
+    "props": {
+      "children": {
+        "type": {
+          "type": "StrapForm"
+        },
+        "props": {
+          "lastNameRef": {},
+          "firstNameRef": {},
+          "createUserCallback": "[function]",
+          "handleChangeLastName": "[function]",
+          "handleChangeFirstName": "[function]"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "function",
+      "type": {
+        "type": "StrapForm"
+      },
+      "props": {
+        "lastNameRef": {},
+        "firstNameRef": {},
+        "createUserCallback": "[function]",
+        "handleChangeLastName": "[function]",
+        "handleChangeFirstName": "[function]"
+      }
+    }
+  },
+  "type": "styledComponents__Wrapper",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "function",
+        "type": {
+          "type": "StrapForm"
+        },
+        "props": {
+          "lastNameRef": {},
+          "firstNameRef": {},
+          "createUserCallback": "[function]",
+          "handleChangeLastName": "[function]",
+          "handleChangeFirstName": "[function]"
+        }
+      },
+      "type": "StrapForm",
+      "props": {
+        "lastNameRef": {},
+        "firstNameRef": {},
+        "createUserCallback": "[function]",
+        "handleChangeLastName": "[function]",
+        "handleChangeFirstName": "[function]"
+      }
+    }
+  ]
+};
+

@@ -1,0 +1,873 @@
+exports["StrapForm create snapshot/UserList snapshot should render correctly(0)"] = {
+  "node": {
+    "nodeType": "function",
+    "type": {
+      "render": "[function]",
+      "attrs": [],
+      "componentStyle": {
+        "rules": [
+          "width:100%;height:100%;"
+        ],
+        "isStatic": true,
+        "componentId": "styledComponents__WrapperStrap-a8i8th-0"
+      },
+      "displayName": "styledComponents__WrapperStrap",
+      "foldedComponentIds": [],
+      "styledComponentId": "styledComponents__WrapperStrap-a8i8th-0",
+      "target": "div",
+      "withComponent": "withComponent",
+      "warnTooManyClasses": "[function]",
+      "toString": "[function]"
+    },
+    "props": {
+      "children": {
+        "type": "Form",
+        "props": {
+          "children": [
+            {
+              "type": "FormGroup",
+              "props": {
+                "children": [
+                  {
+                    "type": "Label",
+                    "props": {
+                      "children": "First Name",
+                      "tag": "label",
+                      "widths": [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "Input",
+                    "props": {
+                      "innerRef": {},
+                      "onChange": "handleChangeFirstName",
+                      "required": true,
+                      "placeholder": "First name",
+                      "type": "text"
+                    },
+                    "_store": {}
+                  }
+                ],
+                "tag": "div"
+              },
+              "_store": {}
+            },
+            {
+              "type": "FormGroup",
+              "props": {
+                "children": [
+                  {
+                    "type": "Label",
+                    "props": {
+                      "children": "Last Name",
+                      "tag": "label",
+                      "widths": [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "Input",
+                    "props": {
+                      "innerRef": {},
+                      "onChange": "handleChangeLastName",
+                      "required": true,
+                      "placeholder": "Last name",
+                      "type": "text"
+                    },
+                    "_store": {}
+                  }
+                ],
+                "tag": "div"
+              },
+              "_store": {}
+            },
+            {
+              "type": "Button",
+              "props": {
+                "block": true,
+                "outline": true,
+                "color": "primary",
+                "onClick": "createUserCallback",
+                "children": "Create",
+                "tag": "button"
+              },
+              "_store": {}
+            }
+          ],
+          "tag": "form"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "class",
+      "type": "Form",
+      "props": {
+        "children": [
+          {
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "First Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeFirstName",
+                    "required": true,
+                    "placeholder": "First name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "_store": {}
+          },
+          {
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "Last Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeLastName",
+                    "required": true,
+                    "placeholder": "Last name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "_store": {}
+          },
+          {
+            "type": "Button",
+            "props": {
+              "block": true,
+              "outline": true,
+              "color": "primary",
+              "onClick": "createUserCallback",
+              "children": "Create",
+              "tag": "button"
+            },
+            "_store": {}
+          }
+        ],
+        "tag": "form"
+      },
+      "rendered": [
+        {
+          "nodeType": "function",
+          "type": "FormGroup",
+          "props": {
+            "children": [
+              {
+                "type": "Label",
+                "props": {
+                  "children": "First Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "_store": {}
+              },
+              {
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeFirstName",
+                  "required": true,
+                  "placeholder": "First name",
+                  "type": "text"
+                },
+                "_store": {}
+              }
+            ],
+            "tag": "div"
+          },
+          "rendered": [
+            {
+              "nodeType": "function",
+              "type": "Label",
+              "props": {
+                "children": "First Name",
+                "tag": "label",
+                "widths": [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl"
+                ]
+              },
+              "rendered": "First Name"
+            },
+            {
+              "nodeType": "class",
+              "type": "Input",
+              "props": {
+                "innerRef": {},
+                "onChange": "handleChangeFirstName",
+                "required": true,
+                "placeholder": "First name",
+                "type": "text"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "function",
+          "type": "FormGroup",
+          "props": {
+            "children": [
+              {
+                "type": "Label",
+                "props": {
+                  "children": "Last Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "_store": {}
+              },
+              {
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeLastName",
+                  "required": true,
+                  "placeholder": "Last name",
+                  "type": "text"
+                },
+                "_store": {}
+              }
+            ],
+            "tag": "div"
+          },
+          "rendered": [
+            {
+              "nodeType": "function",
+              "type": "Label",
+              "props": {
+                "children": "Last Name",
+                "tag": "label",
+                "widths": [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl"
+                ]
+              },
+              "rendered": "Last Name"
+            },
+            {
+              "nodeType": "class",
+              "type": "Input",
+              "props": {
+                "innerRef": {},
+                "onChange": "handleChangeLastName",
+                "required": true,
+                "placeholder": "Last name",
+                "type": "text"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "class",
+          "type": "Button",
+          "props": {
+            "block": true,
+            "outline": true,
+            "color": "primary",
+            "onClick": "createUserCallback",
+            "children": "Create",
+            "tag": "button"
+          },
+          "rendered": "Create"
+        }
+      ]
+    }
+  },
+  "type": "styledComponents__WrapperStrap",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "class",
+        "type": "Form",
+        "props": {
+          "children": [
+            {
+              "type": "FormGroup",
+              "props": {
+                "children": [
+                  {
+                    "type": "Label",
+                    "props": {
+                      "children": "First Name",
+                      "tag": "label",
+                      "widths": [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "Input",
+                    "props": {
+                      "innerRef": {},
+                      "onChange": "handleChangeFirstName",
+                      "required": true,
+                      "placeholder": "First name",
+                      "type": "text"
+                    },
+                    "_store": {}
+                  }
+                ],
+                "tag": "div"
+              },
+              "_store": {}
+            },
+            {
+              "type": "FormGroup",
+              "props": {
+                "children": [
+                  {
+                    "type": "Label",
+                    "props": {
+                      "children": "Last Name",
+                      "tag": "label",
+                      "widths": [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "Input",
+                    "props": {
+                      "innerRef": {},
+                      "onChange": "handleChangeLastName",
+                      "required": true,
+                      "placeholder": "Last name",
+                      "type": "text"
+                    },
+                    "_store": {}
+                  }
+                ],
+                "tag": "div"
+              },
+              "_store": {}
+            },
+            {
+              "type": "Button",
+              "props": {
+                "block": true,
+                "outline": true,
+                "color": "primary",
+                "onClick": "createUserCallback",
+                "children": "Create",
+                "tag": "button"
+              },
+              "_store": {}
+            }
+          ],
+          "tag": "form"
+        },
+        "rendered": [
+          {
+            "nodeType": "function",
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "First Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeFirstName",
+                    "required": true,
+                    "placeholder": "First name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "rendered": [
+              {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "First Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "First Name"
+              },
+              {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeFirstName",
+                  "required": true,
+                  "placeholder": "First name",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          {
+            "nodeType": "function",
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "Last Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeLastName",
+                    "required": true,
+                    "placeholder": "Last name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "rendered": [
+              {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "Last Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "Last Name"
+              },
+              {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeLastName",
+                  "required": true,
+                  "placeholder": "Last name",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          {
+            "nodeType": "class",
+            "type": "Button",
+            "props": {
+              "block": true,
+              "outline": true,
+              "color": "primary",
+              "onClick": "createUserCallback",
+              "children": "Create",
+              "tag": "button"
+            },
+            "rendered": "Create"
+          }
+        ]
+      },
+      "type": "Form",
+      "props": {
+        "tag": "form"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "First Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeFirstName",
+                    "required": true,
+                    "placeholder": "First name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "rendered": [
+              {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "First Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "First Name"
+              },
+              {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeFirstName",
+                  "required": true,
+                  "placeholder": "First name",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          "type": "FormGroup",
+          "props": {
+            "tag": "div"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "First Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "First Name"
+              },
+              "type": "Label",
+              "props": {
+                "tag": "label",
+                "widths": [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl"
+                ]
+              },
+              "children": [
+                "First Name"
+              ]
+            },
+            {
+              "node": {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeFirstName",
+                  "required": true,
+                  "placeholder": "First name",
+                  "type": "text"
+                }
+              },
+              "type": "Input",
+              "props": {
+                "innerRef": {},
+                "onChange": "handleChangeFirstName",
+                "required": true,
+                "placeholder": "First name",
+                "type": "text"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "FormGroup",
+            "props": {
+              "children": [
+                {
+                  "type": "Label",
+                  "props": {
+                    "children": "Last Name",
+                    "tag": "label",
+                    "widths": [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "innerRef": {},
+                    "onChange": "handleChangeLastName",
+                    "required": true,
+                    "placeholder": "Last name",
+                    "type": "text"
+                  },
+                  "_store": {}
+                }
+              ],
+              "tag": "div"
+            },
+            "rendered": [
+              {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "Last Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "Last Name"
+              },
+              {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeLastName",
+                  "required": true,
+                  "placeholder": "Last name",
+                  "type": "text"
+                }
+              }
+            ]
+          },
+          "type": "FormGroup",
+          "props": {
+            "tag": "div"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "function",
+                "type": "Label",
+                "props": {
+                  "children": "Last Name",
+                  "tag": "label",
+                  "widths": [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl"
+                  ]
+                },
+                "rendered": "Last Name"
+              },
+              "type": "Label",
+              "props": {
+                "tag": "label",
+                "widths": [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl"
+                ]
+              },
+              "children": [
+                "Last Name"
+              ]
+            },
+            {
+              "node": {
+                "nodeType": "class",
+                "type": "Input",
+                "props": {
+                  "innerRef": {},
+                  "onChange": "handleChangeLastName",
+                  "required": true,
+                  "placeholder": "Last name",
+                  "type": "text"
+                }
+              },
+              "type": "Input",
+              "props": {
+                "innerRef": {},
+                "onChange": "handleChangeLastName",
+                "required": true,
+                "placeholder": "Last name",
+                "type": "text"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "nodeType": "class",
+            "type": "Button",
+            "props": {
+              "block": true,
+              "outline": true,
+              "color": "primary",
+              "onClick": "createUserCallback",
+              "children": "Create",
+              "tag": "button"
+            },
+            "rendered": "Create"
+          },
+          "type": "Button",
+          "props": {
+            "block": true,
+            "outline": true,
+            "color": "primary",
+            "onClick": "createUserCallback",
+            "tag": "button"
+          },
+          "children": [
+            "Create"
+          ]
+        }
+      ]
+    }
+  ]
+};
+
