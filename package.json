@@ -19,7 +19,7 @@
   "homepage": "https://bitbucket.org/honia1996/react-saga-app#readme",
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "chai": "^4.2.0",
     "extract-text-webpack-plugin": "^3.0.2",
